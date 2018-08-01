@@ -1,4 +1,4 @@
-# Tutorial de la instalación de un portal de datos de biodiversidad basado en el "Atlas of Living Australia" (ALA)
+# Tutorial para la instalación de un portal de datos de biodiversidad basado en las herramientas de software del "Atlas of Living Australia" (ALA)
 
 Este tutorial detalla el proceso de instalación de un portal de datos de biodiversidad basado en las herramientas de software desarrolladas por el [Atlas of Living Australia (ALA)](https://www.ala.org.au/). El portal de datos de ALA es considerado...Comunidad de usuarios
 
