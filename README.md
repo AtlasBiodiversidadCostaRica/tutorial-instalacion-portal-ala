@@ -6,3 +6,7 @@ Este tutorial...
 
 # Contenidos
 
+* Preparación de la estación de trabajo
+
+# Preparación de la estación de trabajo
+Este tutorial...
