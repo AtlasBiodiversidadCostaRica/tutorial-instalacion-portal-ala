@@ -17,5 +17,6 @@ La instalación del portal de ALA se realiza a través de ...
 ## Preparación de la estación de trabajo
 La estación de ...
 
+
 ## Documentación adicional
-Cavière, F., Figueira, R., Heughebaert, A., Lecoq, M., Martínez de la Riva, S. 2016. Atlas of Living Australia: Key  Technical Document (version 1.0.4, 6 July 2016). Publicado por el Secretariado de GBIF. Recuperado el 10 de noviembre de 2017 de https://www.gbif.org/document/82847/ala-key-technical-documentation-english.
+Cavière, F., Figueira, R., Heughebaert, A., Lecoq, M., Martínez de la Riva, S. 2016. *Atlas of Living Australia: Key  Technical Document* (version 1.0.4, 6 July 2016). Publicado por el Secretariado de GBIF. Recuperado el 1 de agosto de 2018 de [https://www.gbif.org/document/82847/ala-key-technical-documentation-english](https://www.gbif.org/document/82847/ala-key-technical-documentation-english).
