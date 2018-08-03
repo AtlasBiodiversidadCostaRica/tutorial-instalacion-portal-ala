@@ -14,7 +14,7 @@ Este tutorial...
 ## Descripción general del proceso de instalación
 La instalación se realiza por medio de [Ansible](https://www.ansible.com/), una plataforma de software libre para automatizar tareas de administración y configuración de computadoras. Estas tareas se especifican, mediante una sintaxis sencilla, en archivos denominados *playbooks*, los cuales se ejecutan típicamente desde una estación de trabajo local (ej. la laptop del desarrollador o del administrador) y contienen las directivas para instalar y configurar el software requerido en un ambiente de desarrollo, de pruebas o de producción.
 
-En las secciones siguientes de este documento se explica primero la preparación de la estación de trabajo local, incluyendo la instalación y configuración de Ansible. Luego, se describe la instalación y configuración inicial de la computadora que contendrá el portal. Posteriormente, se explica como descargar los *plaubooks* de Ansible de los repositorios en [GitHub] de ALA y como realizar la instalación del software.
+En las secciones siguientes de este documento se explica primero la preparación de la estación de trabajo local, incluyendo la instalación y configuración de Ansible. Luego, se describe la instalación y configuración inicial de la computadora que contendrá el portal. Posteriormente, se explica como descargar los *plaubooks* de Ansible de los repositorios en [GitHub](https://github.com/) de ALA y como realizar la instalación del software.
 
 
 ## Preparación de la estación de trabajo
