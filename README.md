@@ -26,6 +26,10 @@ A la fecha de escritura de este tutorial (2018-08-03), [ALA recomienda el uso de
 
 Verificación de la versión instalada:
 ```console
+# Actualización de paquetes
+$ sudo apt-get update
+
+# Verificación de versiones instalada y disponibles
 $ sudo apt-cache policy ansible
 ```
 
