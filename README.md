@@ -35,9 +35,9 @@ $ sudo apt-cache policy ansible
 
 De acuerdo con la [Guía de instalación de Ansible](https://docs.ansible.com/ansible/2.5/installation_guide/intro_installation.html), los siguientes son los pasos para instalar este producto de software:
 
-(**NOTA**: en la [documentación de los scripts de instalación de ALA](https://github.com/AtlasOfLivingAustralia/ala-install/blob/master/README.md), se muestra un procedimiento de instalación basado en **pip** (el administrador de paquetes de Python). Aquí se detalla un procedimiento basado en los repositorios de la **Advanced Packaging Tool (APT)**).
+**NOTA**: en la [documentación de los scripts de instalación de ALA](https://github.com/AtlasOfLivingAustralia/ala-install/blob/master/README.md), se muestra un procedimiento de instalación basado en **pip** (el administrador de paquetes de Python). Aquí se detalla un procedimiento basado en los repositorios de la **Advanced Packaging Tool (APT)**.
 
-En el archivo `/etc/apt/sources.list` debe agregarse la línea:
+En el archivo `/etc/apt/sources.list` debe agregarse la línea correspondiente al repositorio de software de Ansible:
 ```console
 deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main
 ```
