@@ -19,9 +19,16 @@ En las secciones siguientes de este documento, se explica primero la preparació
 
 
 ## Preparación de la estación de trabajo desde la que se ejecutarán los playbooks de instalación
-Los *playbooks* pueden ejecutarse desde cualquiera de los sistemas operativos soportados por Ansible. En este caso, se recomienda utilizar un sistema operativo **macOS** o **Linux**, que son las plataformas más utilizadas en la comunidad de desarrolladores de ALA. Para la elaboración de este tutorial se utilizó la distribución de Linux conocida como **Debian 8 ("Jessie")**.
+Los *playbooks* pueden ejecutarse desde cualquiera de los sistemas operativos soportados por Ansible. En este caso, se recomienda utilizar un sistema operativo **macOS** o **Linux**, que son las plataformas más utilizadas en la comunidad de desarrolladores de ALA. Para la elaboración de este tutorial, se utilizó la distribución de Linux conocida como **Debian 8 ("Jessie")**.
 
 ### Instalación de Ansible
+A la fecha de escritura de este tutorial (2018-08-03), [ALA recomienda el uso de la versión 2.5.4 de Ansible](https://github.com/AtlasOfLivingAustralia/ala-install#the-current-supported-version-is-254). El uso de esta versión es verificado en los *playbooks* de instalación.
+
+Verificación de la versión instalada:
+```console
+sudo apt-cache policy ansible
+```
+
 
 
 ## Documentación adicional
