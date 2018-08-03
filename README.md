@@ -25,7 +25,7 @@ Los *playbooks* pueden ejecutarse desde cualquiera de los sistemas operativos so
 A la fecha de escritura de este tutorial (2018-08-03), [ALA recomienda el uso de la versión 2.5.4 de Ansible](https://github.com/AtlasOfLivingAustralia/ala-install#the-current-supported-version-is-254). El uso de esta versión es verificado en los *playbooks* de instalación.
 
 Verificación de la versión instalada:
-```console
+```ShellSession
 # Actualización de paquetes
 $ sudo apt-get update
 
