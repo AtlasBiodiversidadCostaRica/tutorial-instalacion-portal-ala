@@ -24,8 +24,8 @@ Los *playbooks* pueden ejecutarse desde cualquiera de los sistemas operativos so
 ### Instalación de Ansible
 A la fecha de escritura de este tutorial (2018-08-03), [ALA recomienda el uso de la versión 2.5.4 de Ansible](https://github.com/AtlasOfLivingAustralia/ala-install#the-current-supported-version-is-254). El uso de esta versión es verificado en los *playbooks* de instalación.
 
-Verificación de la versión instalada:
-```ShellSession
+En el caso de Debian 8, para verificar si Ansible está instalado y conocer cuales versiones están disponibles para instalarse, pueden utilizarse los siguientes comandos en la consola del sistema operativo:
+```console
 # Actualización de paquetes
 $ sudo apt-get update
 
@@ -33,7 +33,19 @@ $ sudo apt-get update
 $ sudo apt-cache policy ansible
 ```
 
+De acuerdo con la [Guía de instalación de Ansible](https://docs.ansible.com/ansible/2.5/installation_guide/intro_installation.html), los siguientes son los pasos para instalar este producto de software:
 
+En el archivo `/etc/apt/sources.list` debe agregarse la línea:
+```console
+deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main
+```
+
+Luego, deben ejecutarse los comandos:
+```console
+$ sudo apt-get update # puede omitirse si realizó recientemente
+$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
+$ sudo apt-get install ansible
+```
 
 ## Documentación adicional
 ALA. 2018. *Atlas of Living Australia: Documentation*. Recuperado el 1 de agosto de 2018 de [https://github.com/AtlasOfLivingAustralia/documentation/wiki](https://github.com/AtlasOfLivingAustralia/documentation/wiki).
