@@ -25,7 +25,13 @@ Este documento se comparte mediante una licencia [Creative Commons Atribución-C
 ### Principios de diseño del software de ALA
 De acuerdo con la [Documentación técnica del *Atlas of Living Australia*](https://www.gbif.org/document/82847/ala-key-technical-documentation-english), el software de ALA ha sido construido de acuerdo con los siguientes principios clave:
 1. **Orientado a servicios**: todos los contenidos disponibles en las páginas web del Atlas están disponibles también a través de [servicios web](https://en.wikipedia.org/wiki/Web_service). El conjunto de estos servicios web constituye la [Interfaz de Programación de Aplicaciones (*Application Programming Interface*, API) del ALA](http://api.ala.org.au/). Este principio promueve los datos abiertos y permite a los colaboradores de ALA beneficiarse de estos sistemas para incrustar elementos del Atlas en sus propios servicios y herramientas.
-2. **Componentes modulares**:
+2. **Componentes modulares**: el Atlas está compuesto con una serie de componentes de microservicios, cada uno con un papel específico. Esto promueve la reutilización y permite flexibilidad en las instalaciones.
+3. **Módulos reutilizables de interfaces de usuarios**: los componentes de las interfaces de usuarios están basados en una arquitectura de componentes interconectados. Con esto, se pretende facilitar la reutilización y la personalización. Se reconoce que una marca personalizada es una parte importante de producir un portal para una comunidad.
+4. **Portabilidad**: el Atlas está construído exclusivamente con software libre. Todas las aplicaciones del Atlas pueden ser instaladas a través de *scripts* que facilitan la adopción de los componentes del Atlas.
+
+
+### Vista general de los módulos
+
 
 ## Descripción general del proceso de instalación
 La instalación del portal se realiza por medio de [Ansible](https://www.ansible.com/), una plataforma de software libre para automatizar tareas de administración y configuración de computadoras. Estas tareas se especifican, mediante una sintaxis sencilla y fácil de leer llamada [YAML](http://yaml.org/), en archivos denominados [playbooks](https://docs.ansible.com/ansible/2.6/user_guide/playbooks_intro.html), los cuales se ejecutan típicamente desde una estación de trabajo local (ej. la computadora del desarrollador o del administrador) y contienen las directivas para instalar y configurar el software requerido en un ambiente de desarrollo, de pruebas o de producción, por ejemplo.
