@@ -8,7 +8,7 @@ Este tutorial detalla el proceso de instalación de algunos de los principales c
 
 Para seguir el tutorial, se recomienda contar con conocimientos básicos de algún sistema operativo Unix o similar (ej. macOS o Linux), incluyendo la configuración de redes. También son aconsejables algunas nociones de desarrollo de aplicaciones para la Web, servicios web, bases de datos y manejo del sistema [Git](https://git-scm.com/) para control de versiones. Se inicia con una descripción general de la arquitectura del portal de ALA y del proceso de instalación del software. Posteriormente, se explica como debe prepararse la computadora desde la que se realizará la instalación y también la que albergará el portal. Por último, se detalla el proceso de instalación de los diferentes componentes y de la carga de datos en estos.
 
-Este documento se comparte mediante una licencia [Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+Este documento se comparte mediante una licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
 
 ## Contenidos
@@ -22,6 +22,8 @@ Este documento se comparte mediante una licencia [Atribución-CompartirIgual 4.0
 
 
 ## Arquitectura del portal de ALA
+### Principios de diseño del software de ALA
+De acuerdo con la [Documentación técnica del *Atlas of Living Australia*](https://www.gbif.org/document/82847/ala-key-technical-documentation-english), el software de ALA ha sido construido de acuerdo con los siguientes principios clave:
 
 
 ## Descripción general del proceso de instalación
