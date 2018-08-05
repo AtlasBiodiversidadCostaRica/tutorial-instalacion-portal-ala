@@ -24,7 +24,7 @@ Este documento se comparte mediante una licencia [Creative Commons Atribución-C
 ## Arquitectura del portal de ALA
 ### Principios de diseño del software de ALA
 De acuerdo con la [Documentación técnica del *Atlas of Living Australia*](https://www.gbif.org/document/82847/ala-key-technical-documentation-english), el software de ALA ha sido construido de acuerdo con los siguientes principios clave:
-1. **Orientado a servicios**: todos los contenidos disponibles en las páginas web del Atlas están disponibles también a través de servicios web asociados. El conjunto de estos servicios web constituye la Interfaz de Programación de Aplicaciones (*Application Programming Interface*, API) del Atlas. Este principio promueve los datos abiertos y permite a los colaboradores de ALA beneficiarse de estos servicios para incrustar elementos del Atlas en sus propios servicios y herramientas.
+1. **Orientado a servicios**: todos los contenidos disponibles en las páginas web del Atlas están disponibles también a través de [servicios web](https://en.wikipedia.org/wiki/Web_service). El conjunto de estos servicios web constituye la [Interfaz de Programación de Aplicaciones (*Application Programming Interface*, API) del ALA](http://api.ala.org.au/). Este principio promueve los datos abiertos y permite a los colaboradores de ALA beneficiarse de estos sistemas para incrustar elementos del Atlas en sus propios servicios y herramientas.
 2. **Componentes modulares**:
 
 ## Descripción general del proceso de instalación
