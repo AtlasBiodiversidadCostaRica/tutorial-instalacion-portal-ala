@@ -58,6 +58,6 @@ ALA. 2018. *Atlas of Living Australia: Documentation*. Recuperado el 1 de agosto
 
 ALA. 2018. *Atlas of Living Australia: Installation Scripts*. Recuperado el 1 de agosto de 2018 de [https://github.com/AtlasOfLivingAustralia/ala-install](https://github.com/AtlasOfLivingAustralia/ala-install).
 
-Belbin, L. & Williams, K. 2016. *Towards a national bio-environmental data facility: experiences from the Atlas of Living Australia, International Journal of Geographical Information Science*, 30:1, 108-125, [DOI: 10.1080/13658816.2015.1077962](https://doi.org/10.1080/13658816.2015.1077962)
+Belbin, L. & Williams, K. 2016. *Towards a national bio-environmental data facility: experiences from the Atlas of Living Australia, International Journal of Geographical Information Science*, 30:1, 108-125, [DOI: 10.1080/13658816.2015.1077962](https://doi.org/10.1080/13658816.2015.1077962).
 
 Cavière, F., Figueira, R., Heughebaert, A., Lecoq, M., Martínez de la Riva, S. 2016. *Atlas of Living Australia: Key  Technical Document* (version 1.0.4, 6 July 2016). Publicado por el Secretariado de GBIF. Recuperado el 1 de agosto de 2018 de [https://www.gbif.org/document/82847/ala-key-technical-documentation-english](https://www.gbif.org/document/82847/ala-key-technical-documentation-english).
