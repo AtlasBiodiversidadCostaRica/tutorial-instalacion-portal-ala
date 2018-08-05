@@ -4,14 +4,18 @@ El [Atlas de la Biodiversidad de Australia (*Atlas of Living Australia*, ALA)](h
 
 El portal de datos de ALA ha sido desarrollado con herramientas de software libre y su código fuente es compartido a través de sus [repositorios en GitHub](https://github.com/AtlasOfLivingAustralia/). Esto ha permitido que organizaciones de varios países (ej. [España](http://datos.gbif.es/), [Francia](http://portail.gbif.fr/), [Portugal](http://dados.gbif.pt/), [Costa Rica](http://www.crbio.cr/), [Argentina](http://datos.sndb.mincyt.gob.ar/), [Suecia](https://bioatlas.se/), [Canadá](http://explorer.canadensys.net/occurrences/search?lang=en&taxa=#tab_mapView), [Reino Unido](https://nbn.org.uk/)) adapten el software de ALA para sus portales nacionales e institucionales, lo que ha propiciado el surgimiento de una [comunidad internacional de desarrolladores](https://tdwg.github.io/conferences/2018/sessions/W06) que ha sido apoyada por ALA y por algunas de las principales iniciativas globales de informática de la biodiversidad, como la [Infraestructura Mundial de Información en Biodiversidad (*Global Biodiversity Information Facility*, GBIF)](http://gbif.org/) y [Estándares de Información sobre Biodiversidad (*Biodiversity Information Standards*, TDWG)](https://www.tdwg.org/).
 
-Este documento detalla el proceso de instalación de un portal de datos de biodiversidad basado en las herramientas de software desarrolladas por ALA
+Este tutorial detalla el proceso de instalación de un portal de datos de biodiversidad basado en el de ALA. Puede considerarse una guía complementaria a la [documentación en GitHub](https://github.com/AtlasOfLivingAustralia/documentation/wiki) y a otros [documentos desarrollados por la comunidad internacional](https://www.gbif.org/project/82202/internationalization-of-the-ala-node-portal). Se inicia con una descripción general de la arquitectura del portal de ALA y del proceso de instalación del software. Posteriormente, se explica como debe prepararse la computadora desde la que se realizará la instalación y también la que albergará el portal. Por último, se detalla el proceso de instalación.
 
 
 ## Contenidos
+* [Arquitectura del portal de ALA]()
 * [Descripción general del proceso de instalación](https://github.com/AtlasBiodiversidadCostaRica/tutorial-instalacion-portal-ala/blob/master/README.md#descripci%C3%B3n-general-del-proceso-de-instalaci%C3%B3n)
 * [Preparación de la estación de trabajo desde la que se ejecutarán los playbooks de instalación](https://github.com/AtlasBiodiversidadCostaRica/tutorial-instalacion-portal-ala/blob/master/README.md#preparaci%C3%B3n-de-la-estaci%C3%B3n-de-trabajo)
   * [Instalación de Ansible](https://github.com/AtlasBiodiversidadCostaRica/tutorial-instalacion-portal-ala/blob/master/README.md#instalaci%C3%B3n-de-ansible)
 * [Documentación adicional](https://github.com/AtlasBiodiversidadCostaRica/tutorial-instalacion-portal-ala/blob/master/README.md#documentaci%C3%B3n-adicional)
+
+
+## Arquitectura del portal de ALA
 
 
 ## Descripción general del proceso de instalación
