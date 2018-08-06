@@ -39,6 +39,8 @@ El ALA está compuesto por varios módulos que pueden instalarse independienteme
 </figure>
 <br>
 
+
+
 Este tutorial se concentra en los módulos de **páginas de especies (*species pages*)**, **búsqueda de registros de presencia (*occurrence searching*)** y **colecciones/instituciones conjuntos de datos (*collections/institutions datasets*)**.
 
 
