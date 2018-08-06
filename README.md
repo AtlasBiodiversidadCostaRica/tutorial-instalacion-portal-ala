@@ -35,7 +35,7 @@ El ALA está compuesto por varios módulos que pueden instalarse independienteme
 
 <figure style="display: table;">
   <img src="img/ala-architecture.png" alt="Arquitectura del ALA"/>
-  <figcaption style="display: table-caption;"><small><strong>Arquitectura del ALA. Fuente: presentación de Dave Martin.</strong></small></figcaption>
+  <figcaption style="display: table-caption;caption-side: top;"><small><strong>Arquitectura del ALA. Fuente: presentación de Dave Martin.</strong></small></figcaption>
 </figure>
 
 
