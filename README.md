@@ -33,9 +33,9 @@ De acuerdo con la [Documentación técnica del *Atlas of Living Australia*](http
 ### Vista general de los módulos
 El ALA está compuesto por varios módulos que pueden instalarse independientemente. El diagrama de abajo muestra la arquitectura completa del sistema.
 
-<figure>
+<figure style="display: table;">
   <img src="img/ala-architecture.png" alt="Arquitectura del ALA"/>
-  <figcaption style="text-align:center;"><small><strong>Arquitectura del ALA. Fuente: presentación de Dave Martin.</strong></small></figcaption>
+  <figcaption style="display: table-caption;"><small><strong>Arquitectura del ALA. Fuente: presentación de Dave Martin.</strong></small></figcaption>
 </figure>
 
 
