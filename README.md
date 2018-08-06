@@ -31,11 +31,13 @@ De acuerdo con la [Documentación técnica del *Atlas of Living Australia*](http
 
 
 ### Vista general de los módulos
-El ALA está compuesto por varios módulos que pueden instalarse independientemente. El diagrama de abajo muestra la arquitectura completa del sistema.
+El ALA está compuesto por varios módulos que pueden instalarse independientemente. El diagrama de abajo muestra la arquitectura completa del sistema, organizada en varias capas (franjas horizontales) en las que se ubican los diferentes módulos (rectángulos).
 
 ![Arquitectura del ALA](img/ala-architecture.png "Arquitectura del ALA")
 
-Este tutorial se concentra en los módulos correspondientes a las aplicaciones de **páginas de especies (*species pages*)**, **búsqueda de registros de presencia (*occurrence searching*)** y **colecciones/instituciones conjuntos de datos (*collections/institutions datasets*)**.
+La **capa de almacenamiento (*DBs Indexes Filesystem storage*)** es en la que se ubican las diferentes bases de datos (ej. Cassandra, MySQL, PostgreSQL/PostGIS), motores de búsqueda (ej. Solr) y sistemas de archivos en los que se almacenan los datos. En algunos casos, estos sistemas de almacenamiento se alimentan de los módulos de la **capa de procesamiento fuera de línea (*Offline processing*)**, los cuales insertan mediante procesamiento en lotes (*batch*) los registros de presencia de especies, páginas de especies y capas geoespaciales, por ejemplo. En algunos casos, como en los módulos de ciencia ciudadana, los datos son ingresados por los usuarios. La **capa de servicios web (*Web services*)** se alimenta de los datos almacenados en la capa de almacenamiento y los procesa para trasmitirlos a la **capa de aplicaciones de usuario final (*Front End Apps*)**, que es la que presenta las interfaces gráficas que usan los usuarios para realizar consultas y visualizar los resultados.
+
+Este tutorial se concentra en los módulos correspondientes a las aplicaciones de usuario final correspondientes a **páginas de especies (*species pages*)**, **búsqueda de registros de presencia (*occurrence searching*)** y **colecciones/instituciones conjuntos de datos (*collections/institutions datasets*)**.
 
 
 ## Descripción general del proceso de instalación
