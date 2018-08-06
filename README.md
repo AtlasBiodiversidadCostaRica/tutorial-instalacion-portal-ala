@@ -12,7 +12,7 @@ Este documento se comparte mediante una licencia [Creative Commons Atribución-C
 
 
 ## Contenidos
-* [Arquitectura del portal de ALA](blob/master/README.md#arquitectura-del-portal-de-ala)
+* [Arquitectura del portal de ALA](https://github.com/AtlasBiodiversidadCostaRica/tutorial-instalacion-portal-ala/blob/master/README.md#arquitectura-del-portal-de-ala)
   * [Principios de diseño del software](https://github.com/AtlasBiodiversidadCostaRica/tutorial-instalacion-portal-ala/blob/master/README.md#principios-de-dise%C3%B1o-del-software-de-ala)
   * [Vista general de los módulos](https://github.com/AtlasBiodiversidadCostaRica/tutorial-instalacion-portal-ala/blob/master/README.md#vista-general-de-los-m%C3%B3dulos)
 * [Descripción general del proceso de instalación](https://github.com/AtlasBiodiversidadCostaRica/tutorial-instalacion-portal-ala/blob/master/README.md#descripci%C3%B3n-general-del-proceso-de-instalaci%C3%B3n)
