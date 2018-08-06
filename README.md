@@ -33,7 +33,7 @@ De acuerdo con la [Documentación técnica del *Atlas of Living Australia*](http
 ### Vista general de los módulos
 El ALA está compuesto por varios módulos que pueden instalarse independientemente. El diagrama de abajo muestra la arquitectura completa del sistema.
 
-![Arquitectura del ALA](img/ala-architecture.png "Logo Title Text 1")
+![Arquitectura del ALA](img/ala-architecture.png "Arquitectura del ALA")
 
 Este tutorial se concentra en los módulos de **páginas de especies (*species pages*)**, **búsqueda de registros de presencia (*occurrence searching*)** y **colecciones/instituciones conjuntos de datos (*collections/institutions datasets*)**.
 
